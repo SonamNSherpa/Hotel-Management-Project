@@ -1,0 +1,86 @@
+@charset "ISO-8859-1";
+.form{
+		margin-left:20px;
+		padding-left: 20px;
+		width: 600px;
+		height: 500px;
+		background-color: lightcyan;
+	}
+body{
+		font-family: Josefin Sans;
+		font-weight: 500;
+		font-size: 15px;
+		margin-bottom: 10px;
+		
+	}
+	.foodSet{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		position: abosulte;
+	}
+	.title-menu ,.title{
+		padding-top:25px;
+		margin-left:200px;
+		align-items:center;
+		font-family: Josefin Sans;
+		color: forestgreen;
+		font-weight: 500;
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	.title{
+		margin-left:150px;
+		color: Blue;
+	}
+	.menu-options{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		width: 700px;
+	
+		
+	}
+	
+	.number-box{
+		width: 50px;
+		margin-left:15px;
+	}
+	.section{
+		margin-bottom:15px;
+	}
+	.submit-button{
+		cursor: pointer;
+		margin-left: 150px;
+		font-size: 15px;
+		color:green;
+		border-radius:10px;
+		margin-top:50px;
+		font-family: Josefin Sans;
+		font-weight: 400;
+		background-color: lightskyblue;
+		width: 150px;
+		height: 30px;
+		border:none;
+		
+	}
+	.readData{
+		position: relative;
+		top:50px;
+		left:450px;
+	}
+	.table{
+		font-size: 15px;
+		background-color: lightcyan;
+		border-radius:30px;
+		
+		
+		width:500px;
+		border: 1px solid black;
+		border-collapse: collapse;
+		
+	}
+	.th, td {
+
+padding: 5px;
+
+}
+	
